@@ -120,7 +120,7 @@ controller_settings:
       BULK_HOST_MAX_DELETE: "250"
       UI_NEXT: "true"
       SUBSCRIPTION_USAGE_MODEL: unique_managed_hosts
-      CLEANUP_HOST_METRICS_LAST_TS: "null"
+      CLEANUP_HOST_METRICS_LAST_TS: "2025-11-07T13:32:17.547554Z"
       HOST_METRIC_SUMMARY_TASK_LAST_TS: "null"
       AWX_CLEANUP_PATHS: "true"
       AWX_REQUEST_PROFILE: "false"
