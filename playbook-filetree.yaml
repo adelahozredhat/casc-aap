@@ -33,20 +33,21 @@
       tags:
         - always
 
+    - name: Eliminar el directorio .git del clon para un nuevo historial
+      ansible.builtin.file:
+        path: "{{ output_path }}"
+        state: absent
   roles:
     - infra.aap_configuration_extended.filetree_create
 
   post_tasks:
     - name: Commit push filetree
       ansible.builtin.command: "{{ item }}"
-      args:
-        chdir: "{{ local_path }}"
       loop:
         - git init
         - git add .
-        - git commit -m 'Initial commit from template {{ repo_base }}'
+        - git commit -m 'Add new version filetree'
         - git push
-      when: repo_final_url is defined
 
     - name: "Delete the Authentication Token used"
       ansible.builtin.uri:
