@@ -41,13 +41,6 @@
     - infra.aap_configuration_extended.filetree_create
 
   post_tasks:
-    - name: Commit push filetree
-      ansible.builtin.command: "{{ item }}"
-      loop:
-        - git init
-        - git add .
-        - git commit -m 'Add new version filetree'
-        - git push
 
     - name: "Delete the Authentication Token used"
       ansible.builtin.uri:
@@ -59,3 +52,19 @@
         validate_certs: "{{ aap_validate_certs }}"
         status_code: 204
       when: aap_oauthtoken_url is defined
+
+    - name: Commit push filetree
+      ansible.builtin.command: "git status filetree -s"
+      register: status_git
+
+    - debug:
+        msg: "{{status_git}}"
+
+    - name: Commit push filetree
+      ansible.builtin.command: "{{ item }}"
+      loop:
+        - git init
+        - git add filetree/.
+        - git commit -m 'Add new version filetree'
+        - git push
+      when: status_git.msg  | length > 0
