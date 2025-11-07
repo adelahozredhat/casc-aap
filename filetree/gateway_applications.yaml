@@ -1,0 +1,13 @@
+---
+aap_applications:
+  - name: Prueba
+    description: !unsafe Prueba
+    organization: Default
+    redirect_uris: ""
+    post_logout_redirect_uris: ""
+    algorithm: ""
+    user: ""
+    client_type: public
+    skip_authorization: "False"
+    authorization_grant_type: password
+...
