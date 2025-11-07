@@ -12,4 +12,12 @@ controller_execution_environments:
     description: !unsafe
     image: registry.redhat.io/ansible-automation-platform-25/ee-supported-rhel8@sha256:cb92687c7b7926d06e1683b07fbe5dc10fc22f6c052fb1dface041ef84c1f2cd
     pull: ""
+  - name: EE_AAP_2.5_Filetree_dispatch
+    description: !unsafe
+    image: quay.io/adelahoz/ee_aap_2.5_filetree_dispatch:latest
+    pull: ""
+  - name: EE_AAP_2.5_Livdecycle
+    description: !unsafe
+    image: rquay.io/adelahoz/ee_aap_2.5_livecycle:latest
+    pull: ""
 ...

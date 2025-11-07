@@ -1,7 +1,7 @@
 ---
 controller_hosts:
   - name: "localhost"
-    description: !unsafe ''
+    description: ""
     inventory: "Demo Inventory"
     variables:
       ansible_connection: local
