@@ -12,6 +12,7 @@
     grupo: "lab-user"
     repo_base: "casc-aap"
     output_path: "{{local_path}}/{{repo_base}}/filetree"
+    repo_base_branch: master
 
   pre_tasks:
     - name: 3.4 Clonar el repositorio base localmente
