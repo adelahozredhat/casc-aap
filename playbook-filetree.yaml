@@ -11,6 +11,20 @@
     output_path: filetree
 
   pre_tasks:
+    - name: Use the 'find' module to locate files
+      ansible.builtin.find:
+        paths: 
+          - "."
+          - "../"
+        recurse: true       
+        file_type: any      
+      register: found_files
+
+    - name: Display the list of found file paths
+      ansible.builtin.debug:
+        msg: "{{ item.path }}"
+      loop: "{{ found_files.files }}"
+
     - name: "Setup authentication (block)"
       block:
         - name: "Get the Authentication Token for the future requests"
