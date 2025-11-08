@@ -67,7 +67,7 @@
       when: aap_oauthtoken_url is defined
 
     - name: Commit push filetree
-      ansible.builtin.command: "git status filetree -s"
+      ansible.builtin.command: "git status -s"
       args:
         chdir: "{{output_path}}"
       register: status_git
