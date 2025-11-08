@@ -69,7 +69,7 @@
     - name: Commit push filetree
       ansible.builtin.command: "git status filetree -s"
       args:
-        chdir: {{output_path}}
+        chdir: "{{output_path}}"
       register: status_git
 
     - debug:
@@ -78,5 +78,5 @@
     - name: Commit push filetree
       ansible.builtin.command: "git . ; git commit -m 'Add new version filetree' ; git push;"
       args:
-        chdir: {{output_path}}
+        chdir: "{{output_path}}"
       when: status_git.msg  | length > 0
