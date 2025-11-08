@@ -15,8 +15,7 @@
       ansible.builtin.find:
         paths: 
           - "."
-          - "../"
-        recurse: true       
+        recurse: false       
         file_type: any      
       register: found_files
 
