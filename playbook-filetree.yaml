@@ -8,21 +8,20 @@
     aap_hostname: "{{ vault_aap_hostname | default(lookup('env', 'CONTROLLER_HOST')) }}"
     aap_validate_certs: "{{ vault_aap_validate_certs | default(lookup('env', 'CONTROLLER_VERIFY_SSL')) }}"
     flatten_output: true
-    output_path: filetree
+    local_path: "/tmp"
+    grupo: "lab-user"
+    repo_base: "casc-aap"
+    output_path: "{{local_path}}/{{repo_base}}/filetree"
 
   pre_tasks:
-    - name: Use the 'find' module to locate files
-      ansible.builtin.find:
-        paths: 
-          - "."
-        recurse: false       
-        file_type: any      
-      register: found_files
-
-    - name: Display the list of found file paths
-      ansible.builtin.debug:
-        msg: "{{ item.path }}"
-      loop: "{{ found_files.files }}"
+    - name: 3.4 Clonar el repositorio base localmente
+      ansible.builtin.git:
+        # La URL de clonación debe usar el nuevo PAT
+        repo: "https://{{ git_token }}@{{ git_host }}/{{ grupo }}/{{ repo_base }}.git"
+        dest: "{{ local_path }}"
+        version: "{{ repo_base_branch }}"
+        clone: yes
+        update: yes
 
     - name: "Setup authentication (block)"
       block:
@@ -76,8 +75,8 @@
     - name: Commit push filetree
       ansible.builtin.command: "{{ item }}"
       loop:
-        - git init
-        - git add filetree/.
+        - "cd {{output_path}}"
+        - git .
         - git commit -m 'Add new version filetree'
         - git push
       when: status_git.msg  | length > 0
