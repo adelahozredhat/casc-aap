@@ -8,10 +8,10 @@
     aap_hostname: "{{ vault_aap_hostname | default(lookup('env', 'CONTROLLER_HOST')) }}"
     aap_validate_certs: "{{ vault_aap_validate_certs | default(lookup('env', 'CONTROLLER_VERIFY_SSL')) }}"
     flatten_output: true
-    local_path: "/tmp"
+    local_path: "/tmp/{{repo_base}}"
     grupo: "lab-user"
     repo_base: "casc-aap"
-    output_path: "{{local_path}}/{{repo_base}}/filetree"
+    output_path: "{{local_path}}/filetree"
     repo_base_branch: master
 
   pre_tasks:
