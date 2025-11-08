@@ -80,7 +80,7 @@
       args:
         chdir: "{{output_path}}"
       loop:
-        - git .
+        - git add .
         - git commit -m 'Add new version filetree'
         - git push
       when: status_git.stdout  | length > 0
