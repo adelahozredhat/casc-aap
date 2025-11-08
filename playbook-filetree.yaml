@@ -81,6 +81,8 @@
         chdir: "{{output_path}}"
       loop:
         - git add .
+        - git config --global user.email "{{git_user}}@example.com"
+        - git config --global user.name "{{git_user}}"
         - git commit -m 'Add new version filetree'
         - git push
       when: status_git.stdout  | length > 0
