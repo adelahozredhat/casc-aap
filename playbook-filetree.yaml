@@ -68,6 +68,8 @@
 
     - name: Commit push filetree
       ansible.builtin.command: "git status filetree -s"
+      args:
+        chdir: {{output_path}}
       register: status_git
 
     - debug:
@@ -75,8 +77,9 @@
 
     - name: Commit push filetree
       ansible.builtin.command: "{{ item }}"
+      args:
+        chdir: {{output_path}}
       loop:
-        - "cd {{output_path}}"
         - git .
         - git commit -m 'Add new version filetree'
         - git push
