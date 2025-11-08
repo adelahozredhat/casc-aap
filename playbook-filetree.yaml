@@ -77,10 +77,10 @@
 
     - name: Commit push filetree
       ansible.builtin.command: "{{ item }}"
-      args:
-        chdir: {{output_path}}
       loop:
         - git .
         - git commit -m 'Add new version filetree'
         - git push
+      args:
+        chdir: {{output_path}}
       when: status_git.msg  | length > 0
