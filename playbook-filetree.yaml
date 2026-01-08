@@ -8,7 +8,7 @@
     aap_hostname: "{{ vault_aap_hostname | default(lookup('env', 'CONTROLLER_HOST')) }}"
     aap_validate_certs: "{{ vault_aap_validate_certs | default(lookup('env', 'CONTROLLER_VERIFY_SSL')) }}"
     flatten_output: true
-    local_path: "/tmp/{{repo_base}}"
+    local_path: "/tmp"
     output_path: "{{local_path}}/filetree"
 
   pre_tasks:
