@@ -33,11 +33,6 @@
       when: aap_oauthtoken is not defined
       tags:
         - always
-
-    - name: Eliminar el directorio .git del clon para un nuevo historial
-      ansible.builtin.file:
-        path: "{{ output_path }}"
-        state: absent
   roles:
     - infra.aap_configuration_extended.filetree_create
 
