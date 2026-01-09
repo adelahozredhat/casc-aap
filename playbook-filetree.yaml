@@ -21,6 +21,11 @@
     - hub_ee_repositories
 
   pre_tasks:
+    - name: Create a directory
+      ansible.builtin.file:
+        path: /tmp/filetree
+        state: directory
+        mode: '0755'
     - name: "Setup authentication (block)"
       block:
         - name: "Get the Authentication Token for the future requests"
