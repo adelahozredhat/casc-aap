@@ -10,6 +10,17 @@
     flatten_output: true
     local_path: "/tmp"
     output_path: "{{local_path}}/filetree"
+    input_tag:
+    - controller
+    - gateway
+    - eda
+    - hub_namespaces
+    - hub_collection_remotes
+    - hub_collection_repositories
+    - hub_ee_registries
+    - hub_ee_repositories
+    - hub_ee_images
+    - hub_roles
 
   pre_tasks:
     - name: "Setup authentication (block)"
