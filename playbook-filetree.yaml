@@ -10,8 +10,6 @@
     flatten_output: true
 
     local_path: "/tmp/{{repo_base}}"
-    grupo: "lab-user"
-    repo_base: "casc-aap"
     output_path: "{{local_path}}/filetree"
     repo_base_branch: master
     input_tag:
@@ -21,7 +19,7 @@
     - name: 3.4 Clonar el repositorio base localmente
       ansible.builtin.git:
         # La URL de clonación debe usar el nuevo PAT
-        repo: "https://{{ git_token }}@{{ git_host }}/{{ grupo }}/{{ repo_base }}.git"
+        repo: "https://{{ git_token }}@{{ git_host }}"
         dest: "{{ local_path }}"
         version: "{{ repo_base_branch }}"
         clone: yes
