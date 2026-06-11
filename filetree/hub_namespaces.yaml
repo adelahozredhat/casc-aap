@@ -1,0 +1,936 @@
+---
+hub_namespaces:
+  - name: f5networks
+    company: ''
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: automatics_ai
+    company: ''
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: infoblox
+    company: Infoblox
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-dd14-740f-b70d-3bac34ff03de/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: scale_computing
+    company: Scale Computing
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f110-7496-aa42-aca9ccbdc35b/avatar/
+    description: Official Ansible collection for Scale Computing SC//HyperCore (HC3) v1 API
+    links:
+      - name: SC // Platform
+        url: https://www.scalecomputing.com/sc-platform
+      - name: SC // Ansible Collection
+        url: https://github.com/ScaleComputing/HyperCoreAnsibleCollection
+      - name: SC// HyperCore Edge Computing
+        url: https://www.scalecomputing.com/sc-hypercore
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: cohesity
+    company: Cohesity
+    email: ''
+    avatar_url: ''
+    description: Next-Gen Data Management Platform!
+    links:
+      - name: Github
+        url: https://github.com/cohesity/ansible-collection
+    groups: []
+    users: []
+    resources: "# Ansible Collection - cohesity.dataprotect\n\n![](docs/assets/images/cohesity_ansible.png)\n\n## Overview\n[![License: GNU General Public License v3.0](https://img.shields.io/badge/LICENSE-GPL--v3.0-blue)](https://github.com/cohesity/ansible-collection/blob/main/LICENSE)\n\nThis project provides an Ansible Collection for interacting with the [Cohesity DataPlatform](https://www.cohesity.com/products/data-platform).\n\nThis Ansible Collection can be used on Windows, Linux or MacOS leveraging Python.\n\nIt includes modules, tasks, and example plays useful for automating common tasks and orchestrating workflows in your environment.\n\nThis Ansible Collection leverages Cohesity REST API to interact with the Cohesity Cluster.\n\n# Installation\n```bash\nansible-galaxy collection install cohesity.dataprotect\n```\nTo use this collection, add the following to the top of your playbook:\n```\ncollections:\n  - cohesity.dataprotect\n```\n# Requirements\n- ansible version >= 2.9\n- requests >= 2.20\n- python version >= '3.6'\n- cohesity_management_sdk >= 1.6.0\n\n## Table of contents\n\n - [Getting Started](https://github.com/cohesity/ansible-collection/blob/main/README.md#get-started)\n - [More samples playbooks](https://github.com/cohesity/ansible-collection/blob/main/README.md#examples)\n - [How can you contribute](https://github.com/cohesity/ansible-collection/blob/main/README.md#contribute)\n - [Suggestions and Feedback](https://github.com/cohesity/ansible-collection/blob/main/README.md#suggest)\n\n\n##  Let's get started\n\n* [Documentation for Cohesity Ansible Collection](https://github.com/cohesity/ansible-collection/tree/main/docs).\n\n##  Some samples to get you going\n\n* Refer [`playbooks`](https://github.com/cohesity/ansible-collection/tree/main/playbooks) folder to find more examples.\n\n## Contribute\n\n* [Refer our contribution guideline](https://github.com/cohesity/ansible-collection/tree/main/CONTRIBUTING.md).\n\n##  Suggestions and Feedback\n\nWe would love to hear from you. Please send your suggestions and feedback to: [cohesity-api-sdks@cohesity.com](mailto:cohesity-api-sdks@cohesity.com)\n\n## Code of Conduct\nThis collection follows the [Ansible project's Code of Conduct](https://docs.ansible.com/ansible/devel/community/code_of_conduct.html).\n\n## License\n\nGNU General Public License v3.0.\n"
+  - name: microsoft
+    company: Red Hat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-d957-70f8-b49b-ee25029b2c7f/avatar/
+    description: Microsoft SQL Server management
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: dynatrace
+    company: Dynatrace
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e126-7fed-95b6-83e7e1c606f3/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: netscaler
+    company: NetScaler
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e0d6-77d6-b3ca-e2b5d6dcfcf6/avatar/
+    description: NetScaler is the application delivery and security platform of choice for the world’s largest companies. NetScaler is a business unit of Cloud Software Group.
+    links:
+      - name: NetScaler GitHub
+        url: https://github.com/netscaler
+      - name: NetScaler Support
+        url: https://www.netscaler.com/resources/support
+      - name: NetScaler Community
+        url: https://community.netscaler.com
+      - name: NetScaler Home Page
+        url: https://www.netscaler.com
+      - name: NetScaler Documentation
+        url: https://docs.netscaler.com/
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: delinea
+    company: Delinea
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: vmware
+    company: VMware
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: wti
+    company: WTI
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f8cd-773f-8cb5-cf4bf74464fc/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: datadog
+    company: Datadog
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-ece2-7ef7-8f6e-911559507532/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: citrix
+    company: Citrix
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: confluent
+    company: Confluent
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f4ce-7539-b3ac-103f1eb3b05f/avatar/
+    description: ''
+    links:
+      - name: cp-ansible docs
+        url: https://docs.confluent.io/ansible/7.2.1/overview.html
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: hitachivantara
+    company: Hitachi Vantara
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-dd8b-7371-ad47-51a460280325/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: inspur
+    company: Inspur
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: juniper
+    company: Juniper Networks
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-dd3e-7918-94c6-77d1306358fa/avatar/
+    description: ''
+    links:
+      - name: Juniper Networks
+        url: https://www.juniper.net/
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: entrust
+    company: Entrust
+    email: ''
+    avatar_url: ''
+    description: Our portfolio of identity and security solutions enables the world's most discerning customers to accelerate growth, protect their assets, and build trust into every digital interaction.
+    links:
+      - name: Ansible Plugin Press Release
+        url: https://www.entrust.com/newsroom/press-releases/2019/automates-tls-ssl-certificate-deployment-at-scale-with-new-ansible-modules
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: nvidia
+    company: Nvidia
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: kentik
+    company: Kentik
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e8fc-75e3-85da-dfa53590b559/avatar/
+    description: Kentik is the network observability company. Our platform is a must-have for the network front line, whether digital business, corporate IT, or service provider.
+    links:
+      - name: Website
+        url: https://www.kentik.com
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: netapp
+    company: NetApp
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: purestorage
+    company: Pure Storage
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f496-77a5-a9fe-7aae10f5cc72/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: hpe
+    company: HPE
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f0ee-7ee1-bc99-244b5f90b471/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: servicenow
+    company: ServiceNow
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f487-71e9-a4fb-5a594c877a62/avatar/
+    description: ServiceNow
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: lantronix
+    company: lantronix
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: trilio
+    company: Trilio
+    email: ''
+    avatar_url: ''
+    description: Intelligent Backup, Recovery and Migration for Kubernetes, KubeVirt and OpenStack
+    links:
+      - name: https://trilio.io/
+        url: https://trilio.io/
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: opensvc
+    company: OpenSVC
+    email: ''
+    avatar_url: ''
+    description: ''
+    links:
+      - name: OpenSVC v2 Documentation
+        url: https://docs.opensvc.com
+      - name: OpenSVC v3 Documentation
+        url: https://book.opensvc.com
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: networktocode
+    company: ''
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: venafi
+    company: Venafi
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: check_point
+    company: Check Point
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: redhat
+    company: Red Hat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-d925-7afb-9db9-ee9e895e0a22/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: nutanix
+    company: Nutanix
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: cloud
+    company: Red Hat
+    email: ''
+    avatar_url: ''
+    description: cloud
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: nokia
+    company: Nokia
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e0eb-7d47-a6d0-21e0498e1cd1/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: sensu
+    company: Sensu
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: seiko
+    company: Seiko Solutions Inc.
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f4c3-7a7f-9193-7e0f0fb7d1c8/avatar/
+    description: ''
+    links:
+      - name: Website
+        url: https://www.seiko-sol.co.jp/en
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: vyos
+    company: VyOS Networks
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f8c5-741a-840e-97e648568e52/avatar/
+    description: ''
+    links:
+      - name: Web
+        url: https://vyo.io
+      - name: Developlment
+        url: https://vyos.dev
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: h3c_open
+    company: H3C
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e4c4-73a6-a3df-e73030215d6f/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: crowdstrike
+    company: CrowdStrike
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f0cb-7bc1-9cb3-34cb3606f807/avatar/
+    description: ''
+    links:
+      - name: GitHub
+        url: https://github.com/CrowdStrike
+      - name: CrowdStrike & Red Hat
+        url: https://www.crowdstrike.com/partners/falcon-for-red-hat/
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: ansible
+    company: Red Hat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-d93e-7c53-8b05-c7e5fe622424/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: kubernetes
+    company: Red Hat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f476-71cf-9d6b-cec7a8cd9cee/avatar/
+    description: Production-Grade Container Scheduling and Management
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: frr
+    company: Red Hat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f83a-7907-b2a7-9e0da54326de/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: cyberark
+    company: CyberArk
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e10b-7272-bee0-74bc212da072/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: ibm
+    company: IBM
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e89c-736b-86d2-1ff3cbf13459/avatar/
+    description: https://github.com/IBM
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: zabbix
+    company: Zabbix
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-eccf-7021-b171-07e12777e11f/avatar/
+    description: ''
+    links:
+      - name: Documentation
+        url: https://www.zabbix.com/manuals
+      - name: Purchase Technical Support
+        url: https://www.zabbix.com/support
+      - name: Attend professional training
+        url: https://www.zabbix.com/training_courses_core
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: junipernetworks
+    company: Red Hat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-ffb6-7aa2-8d44-73ad68d0802d/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: sap
+    company: Red Hat
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: fortinet
+    company: Fortinet
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-dd4a-7eef-ac85-cef831be0da1/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: zscaler
+    company: Zscaler
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e4f1-7e83-9380-d1a388285407/avatar/
+    description: Zscaler Official Namespace
+    links:
+      - name: GitHub Page
+        url: https://github.com/zscaler
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: hashicorp
+    company: HashiCorp | An IBM Company
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-dd1e-79b7-a7ba-079a2daa210a/avatar/
+    description: HashiCorp is an IBM company that helps organizations automate hybrid cloud environments with a unified approach to Infrastructure and Security Lifecycle Management.
+    links:
+      - name: Home
+        url: https://www.hashicorp.com/
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: opengear
+    company: Opengear
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: netbox
+    company: Netbox Labs Inc.
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: google
+    company: Google Cloud
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: splunk
+    company: Red Hat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-d94d-7614-81e3-93f380e2d918/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: arista
+    company: Arista
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f108-7fde-a1f9-580e6ba673ad/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: infinidat
+    company: Infinidat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f0dd-71b5-8287-1ffbb27650dd/avatar/
+    description: Infinidat is a leading enterprise storage vendor known for its InfiniBox and InfiniGuard solutions.
+    links:
+      - name: Web site
+        url: https://infinidat.com
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: verticetech
+    company: Vertice Technology
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e4e4-797a-9cdc-1647093c0032/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: trendmicro
+    company: Red Hat
+    email: ''
+    avatar_url: ''
+    description: trendmicro
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: manageengine
+    company: ManageEngine
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-dd51-7c7c-af21-08f9c58dad1c/avatar/
+    description: ManageEngine - A division of ZOHO Corp.
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: logicmonitor
+    company: LogicMonitor
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: dellemc
+    company: Dell Technologies
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e514-7a01-98c6-b66fb3c66bdb/avatar/
+    description: Dell Technologies Ansible community
+    links:
+      - name: Developer Dell Technologies
+        url: https://developer.dell.com/
+      - name: Automation Tools and Solutions
+        url: https://www.delltechnologies.com/en-us/solutions/devops/index.htm
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: styra
+    company: Styra
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-ecbe-7beb-b7ec-20f480494317/avatar/
+    description: ''
+    links:
+      - name: Academy
+        url: https://academy.styra.com
+      - name: Website
+        url: https://styra.com
+      - name: Resources
+        url: https://www.styra.com/resources
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: amazon
+    company: Red Hat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-dd74-76ff-a0d3-4eb85c883253/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: 'dgdrg
+
+      '
+  - name: avantra
+    company: Avantra
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: gluware_inc
+    company: Gluware
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: radware
+    company: Radware
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: azure
+    company: Microsoft
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-fc47-7350-bc3f-564f794bf86f/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: arubanetworks
+    company: Aruba
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: onepassword
+    company: 1Password
+    email: ''
+    avatar_url: ''
+    description: The easiest way to use and store secrets.
+    links:
+      - name: Homepage
+        url: https://1password.com
+      - name: Secrets Automation
+        url: https://1password.com/secrets
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: enfence
+    company: eNFence
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e8c7-7bdc-989f-7b4a0ed33a23/avatar/
+    description: ''
+    links:
+      - name: Website
+        url: https://www.enfence.com
+    groups: []
+    users: []
+    resources: '## Using enfence.powerha_aix collection to deploy PowerHA cluster on AIX
+
+
+      * [Video Deploying PowerHA Cluster with Ansible](https://youtu.be/H5JvMAWcBTs)
+
+      '
+  - name: chocolatey
+    company: Chocolatey
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-f8f8-7850-a467-28b73ef25835/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: cisco
+    company: Cisco
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-dd9a-77a3-9acf-dda82824e5ad/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: bigpanda
+    company: BigPanda
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e8da-72a8-a112-adc0d1a52f6e/avatar/
+    description: BigPanda's AI powered platform helps ITOps teams prevent, manage, and resolve IT incidents with intelligent automation.
+    links:
+      - name: BigPanda
+        url: https://www.bigpanda.io/
+      - name: BigPanda Ansible Docs
+        url: https://docs.bigpanda.io/docs/ansible-automation-platform
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: thalesgroup
+    company: ''
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: virsec
+    company: Virsec Systems
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: paloaltonetworks
+    company: Palo Alto Networks
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-ecb1-7a34-aa33-20d275ac53ec/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: phoenixnap
+    company: PhoenixNAP
+    email: ''
+    avatar_url: ''
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+  - name: os_migrate
+    company: Red Hat
+    email: ''
+    avatar_url: https://example-ansible-automation-platform.apps.cluster-f48lr.dynamic2.redhatworkshops.io/api/galaxy/pulp/api/v3/content/ansible/namespaces/019eb38d-e11e-70cc-b177-e3a7b1e83af7/avatar/
+    description: ''
+    links: ''
+    groups: []
+    users: []
+    resources: '""
+
+      '
+...

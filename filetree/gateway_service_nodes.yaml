@@ -1,0 +1,23 @@
+---
+gateway_service_nodes:
+  - name: "Node gateway"
+    address: "0.0.0.0"
+    service_cluster: "1"
+    tags: ""
+  - name: "Node controller - example-controller"
+    address: "example-controller-service"
+    service_cluster: "2"
+    tags: ""
+  - name: "Node galaxy - example-hub"
+    address: "example-hub-web-svc"
+    service_cluster: "3"
+    tags: ""
+  - name: "Node eda - example-eda"
+    address: "example-eda-api"
+    service_cluster: "4"
+    tags: "eda"
+  - name: "Node eda event stream - example-eda"
+    address: "example-eda-event-stream"
+    service_cluster: "4"
+    tags: "eda-event-stream"
+...
