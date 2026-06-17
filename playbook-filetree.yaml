@@ -10,7 +10,7 @@
     flatten_output: true
 
     local_path: "/tmp/casc"
-    output_path: "{{local_path}}/filetree"
+    output_path: "{{local_path}}/filetree/{{folder_save_filetree}}"
     repo_base_branch: master
     input_tag:
     - all
