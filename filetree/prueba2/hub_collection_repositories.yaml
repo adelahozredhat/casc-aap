@@ -1,0 +1,45 @@
+---
+hub_collection_repositories:
+  - base_path: validated
+    content_guard: /api/galaxy/pulp/api/v3/contentguards/core/content_redirect/019ed535-62e6-7e49-a531-8b57de31baa2/
+    name: validated
+    repository: /api/galaxy/pulp/api/v3/repositories/ansible/ansible/019ed535-702f-7eb8-98ad-fb65188bf004/
+    repository_version: ""
+    client_url: https://example-ansible-automation-platform.apps.cluster-sbs97.dynamic2.redhatworkshops.io/pulp_ansible/galaxy/validated/
+    pulp_labels: ""
+  - base_path: rh-certified
+    content_guard: /api/galaxy/pulp/api/v3/contentguards/core/content_redirect/019ed535-62e6-7e49-a531-8b57de31baa2/
+    name: rh-certified
+    repository: /api/galaxy/pulp/api/v3/repositories/ansible/ansible/019ed535-5b02-710e-9e58-43add4a3e577/
+    repository_version: ""
+    client_url: https://example-ansible-automation-platform.apps.cluster-sbs97.dynamic2.redhatworkshops.io/pulp_ansible/galaxy/rh-certified/
+    pulp_labels: ""
+  - base_path: community
+    content_guard: /api/galaxy/pulp/api/v3/contentguards/core/content_redirect/019ed535-62e6-7e49-a531-8b57de31baa2/
+    name: community
+    repository: /api/galaxy/pulp/api/v3/repositories/ansible/ansible/019ed535-5ac1-7023-9cd6-5dfce7a75f45/
+    repository_version: ""
+    client_url: https://example-ansible-automation-platform.apps.cluster-sbs97.dynamic2.redhatworkshops.io/pulp_ansible/galaxy/community/
+    pulp_labels: ""
+  - base_path: published
+    content_guard: /api/galaxy/pulp/api/v3/contentguards/core/content_redirect/019ed535-62e6-7e49-a531-8b57de31baa2/
+    name: published
+    repository: /api/galaxy/pulp/api/v3/repositories/ansible/ansible/019ed535-5a88-7361-8d14-e61ed3d061e4/
+    repository_version: ""
+    client_url: https://example-ansible-automation-platform.apps.cluster-sbs97.dynamic2.redhatworkshops.io/pulp_ansible/galaxy/published/
+    pulp_labels: ""
+  - base_path: rejected
+    content_guard: /api/galaxy/pulp/api/v3/contentguards/core/content_redirect/019ed535-62e6-7e49-a531-8b57de31baa2/
+    name: rejected
+    repository: /api/galaxy/pulp/api/v3/repositories/ansible/ansible/019ed535-53fd-71be-a454-e1cb0488b866/
+    repository_version: ""
+    client_url: https://example-ansible-automation-platform.apps.cluster-sbs97.dynamic2.redhatworkshops.io/pulp_ansible/galaxy/rejected/
+    pulp_labels: ""
+  - base_path: staging
+    content_guard: /api/galaxy/pulp/api/v3/contentguards/core/content_redirect/019ed535-62e6-7e49-a531-8b57de31baa2/
+    name: staging
+    repository: /api/galaxy/pulp/api/v3/repositories/ansible/ansible/019ed535-53de-7b5b-8a81-585659961c46/
+    repository_version: ""
+    client_url: https://example-ansible-automation-platform.apps.cluster-sbs97.dynamic2.redhatworkshops.io/pulp_ansible/galaxy/staging/
+    pulp_labels: ""
+...
